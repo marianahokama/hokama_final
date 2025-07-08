@@ -23,7 +23,7 @@ const mook_data = {
         },
         {
             id: 2,
-            name: 'Lucia',
+            name: 'Lucia', 
             last_time_connected: '15:19',
             img: "https://resizing.flixster.com/HyNT-XNfqIkd0KbeP0zrKyDQQro=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p90510_p_v10_aa.jpg",
             last_message: {
