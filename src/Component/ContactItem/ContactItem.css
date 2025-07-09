@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    .card-title {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+ 
+}
+
+.card-description {
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 3px;
+   
+}
+
+.card-icon {
+    display: flex;  
+   border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+    .contenedor-card-icons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+         font-family: roboto, sans-serif;
+         text-decoration: none;
+        
+    }
+
+    .card {
+        max-width: 80%;
+        width: 100%;
+       
+    }
+
+    .contacto-msj {
+        display: flex;
+        flex-direction: column;
+       
+  
+    }
+
+    .img-msj {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        min-height: 40px;
+        background-color: #00b090;
+        max-width: 90%;
+        width: 90%;
+        border-radius: 14px;
+        padding: 20px;
+        justify-content: space-between;
+        min-width: 400px;
+        margin: 5px auto;
+    }
+
+    .horario-notif {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+
+
+    .img-msj-contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .horario-notif {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        align-items: flex-end;
+        margin-left: auto;
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+
+    .notif {
+        font-size: 10px;
+        padding: 5px;
+        background-color: #673de6;
+        border-radius: 8px;
+        margin-top: 5px;
+
+    }
+
+   .solo-msj {
+        display: flex;
+      
+        justify-content:space-between;
+      
+   }
