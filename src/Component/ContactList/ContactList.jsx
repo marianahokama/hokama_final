@@ -2,6 +2,7 @@ import React, { useContext } from "react"
 import ContactItem from "../ContactItem/ContactItem"
 import { ContactContext } from "../../Context/ContactContext"
 import LoaderSpinner from "../LoaderSpinner/LoaderSpinner"
+import '../ContactList/ContactList.css'
 
 const ContactsList = () => {
     const {contacts, isLoadingContacts} = useContext(ContactContext)
@@ -11,7 +12,11 @@ const ContactsList = () => {
         )
     }
     return (
-        <div>
+        <div className="chat-container">
+
+             <header className="chat-header">
+                <h2>Chats</h2>
+            </header>
             {
                 contacts.map(
                     (contact) => {

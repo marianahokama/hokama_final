@@ -4,7 +4,7 @@
 
     .card-title {
     font-weight: bold;
-    color: #ffffff;
+    color: #4d4d4d;
     font-size: 15px;
  
 }
@@ -12,7 +12,7 @@
 .card-description {
     font-size: 14px;
     text-align: left;
-    color: #ffffff;
+    color: #4d4d4d;
     padding-top: 3px;
    
 }
@@ -56,11 +56,11 @@
         align-items: center;
         gap: 16px;
         min-height: 40px;
-        background-color: #00b090;
+        background-color: #e6e6e6;
         max-width: 90%;
         width: 90%;
-        border-radius: 14px;
-        padding: 20px;
+        border-radius: 16px;
+        padding: 10px;
         justify-content: space-between;
         min-width: 400px;
         margin: 5px auto;
@@ -71,7 +71,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color: #ffffff;
+        color: #4d4d4d;
+        align-items: flex-end;
+        margin-left: auto;
+        font-size: 11px;
+        font-weight: 400;
+
     }
 
 
@@ -82,27 +87,23 @@
         gap: 16px;
         width: 100%;
         max-width: 100%;
+        margin-right: 10px;
     }
     
-    .horario-notif {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: #ffffff;
-        align-items: flex-end;
-        margin-left: auto;
-        font-size: 11px;
-        font-weight: 400;
-    }
+
 
 
     .notif {
         font-size: 10px;
-        padding: 5px;
-        background-color: #673de6;
-        border-radius: 8px;
+        padding: 4px;
+        background-color: #f364ab;
+        border-radius: 6px;
         margin-top: 5px;
+        color: #e6e6e6;
+        min-width: 12px;
+        text-align: center;
+
+
 
     }
 
