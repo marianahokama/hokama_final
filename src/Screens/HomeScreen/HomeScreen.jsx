@@ -6,6 +6,7 @@ import Swal from 'sweetalert2'
 import { Link, useParams } from 'react-router';
 import { MessagesContext } from '../../Context/MessagesContext';
 import LoaderSpinner from '../../Component/LoaderSpinner/LoaderSpinner';
+import './HomeScreen.css';
 
 export default function HomeScreen() {
 
@@ -39,18 +40,27 @@ export default function HomeScreen() {
 		})
 	}
 
+   
     return (
-        <div>
-            <Link to={`/contacts/${contact_id}/detail`}>Ir a detalle de contacto</Link>
-            <h3>
-                Lets go for a <IoIosBody />?
-            </h3>
-            <button onClick={handleClickAlertButton}>alerta bonita</button>
-            <Chat />
-            <NewMessageForm/>
-        </div>
-        
-    )
+  <div className="home-screen">
+    <div className="chat-header">
+      <Link to={`/contacts/${contact_id}/detail`} className="contact-link">
+        Ir a detalle de contacto
+      </Link>
+      <h3 className="chat-title">
+        Lets go for a <IoIosBody />?
+      </h3>
+      <button className="alert-button" onClick={handleClickAlertButton}>
+        alerta bonita
+      </button>
+    </div>
+    <div className="chat-content">
+      <Chat />
+      <NewMessageForm />
+    </div>
+  </div>
+)
+
 }
 
 

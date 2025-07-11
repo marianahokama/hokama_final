@@ -13,7 +13,7 @@ const mook_data = {
             unread_messages: 1,
             messages: [
                 {
-                    emisor: 'YO',
+                    emisor: 'Pepe',
                     hora: '23:10',
                     id: 1,
                     texto: 'Hola que tal?',

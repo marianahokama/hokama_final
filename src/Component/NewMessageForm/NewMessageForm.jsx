@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { MessagesContext } from '../../Context/MessagesContext'
+import './NewMessageForm.css'
 
 export default function NewMessageForm() {
     /* const result = useContext(MessagesContext)
@@ -16,11 +17,11 @@ export default function NewMessageForm() {
     }
     return (
         <form onSubmit={handleSubmitNewMessage}>
-            <div>
-                <label htmlFor="text">Nuevo mensaje:</label>
-                <textarea id='text' name='text' minLength={5} required ></textarea>
+            <div className='new-message-form'>
+                    <input className='input' id='text' name='text' ></input>
+            <button className='boton' type='submit'>▶</button>
+            
             </div>
-            <button type='submit'>Enviar mensaje</button>
         </form>
     )
 }

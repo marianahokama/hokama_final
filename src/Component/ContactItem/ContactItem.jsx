@@ -10,7 +10,7 @@ const ContactItem = ({ name, id, last_time_connected, img, last_message, unread_
 
                 {/* Imagen con ruta distinta */}
                 <Link
-                    to={`/profile/${id}`}
+                    to={`/contacts/${id}/detail`}
                     onClick={e => e.stopPropagation()} // evita que afecte al otro Link
                     className="card-icon"
                 >

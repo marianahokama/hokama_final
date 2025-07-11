@@ -1,0 +1,28 @@
+.boton {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ff69b4;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1%;
+}
+
+.new-message-form {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffe6f0;
+  border-top: 2px solid #ff99aa;
+}
+

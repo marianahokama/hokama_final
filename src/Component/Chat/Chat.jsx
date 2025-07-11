@@ -12,7 +12,7 @@ export default function Chat() {
         )
     }
     return (
-        <div>
+         <div className="chat-container">
             {
                 messages.map((message) => {
                     return (
