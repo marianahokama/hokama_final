@@ -37,22 +37,23 @@ export default function HomeScreen() {
    
     return (
   <div className="home-screen">
-    <div className="chat-header">
+    <div className="chat-header-profile">
      
-      <div>
-        <img src={contact.img} alt={contact.nombre} className="avatar" />
-      </div>
+      
 
       <div className="contact-img">
          <Link to={`/contacts/${contact_id}/detail`} className="contact-link">
-        {contact.name}
+          <img src={contact.img} alt={contact.nombre} className="avatar" />
+
       </Link>
         </div>
+
+
 
       
       <div className="contact-info">
        <p className="contact-name">{contact.name}</p>
-        <p className="contact-status">💗 En línea</p>
+        <p className="contact-status">Ultima conexion: {contact.last_time_connected} hs</p>
       </div>
 
     </div>

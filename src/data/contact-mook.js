@@ -3,7 +3,7 @@ const mook_data = {
     contacts: [
         {
             id: 1,
-            name: 'Pepe',
+            name: 'Mariana',
             last_time_connected: '14:19',
             img: "https://resizing.flixster.com/HyNT-XNfqIkd0KbeP0zrKyDQQro=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p90510_p_v10_aa.jpg",
             last_message: {
@@ -13,7 +13,7 @@ const mook_data = {
             unread_messages: 1,
             messages: [
                 {
-                    emisor: 'Pepe',
+                    emisor: 'Lautaro',
                     hora: '23:10',
                     id: 1,
                     texto: 'Hola que tal?',
@@ -23,7 +23,7 @@ const mook_data = {
         },
         {
             id: 2,
-            name: 'Lucia', 
+            name: 'Lauju', 
             last_time_connected: '15:19',
             img: "https://resizing.flixster.com/HyNT-XNfqIkd0KbeP0zrKyDQQro=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p90510_p_v10_aa.jpg",
             last_message: {
@@ -43,7 +43,7 @@ const mook_data = {
         },
         {
             id: 3,
-            name: 'Carlos',
+            name: 'Chyru',
             last_time_connected: '17:19',
             img: "https://resizing.flixster.com/HyNT-XNfqIkd0KbeP0zrKyDQQro=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p90510_p_v10_aa.jpg",
             last_message: {
