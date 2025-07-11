@@ -2,17 +2,18 @@ import React, { useContext, useEffect } from 'react'
 import Chat from '../../Component/Chat/Chat'
 import NewMessageForm from '../../Component/NewMessageForm/NewMessageForm'
 import { IoIosBody, IoIosBackspace } from "react-icons/io";
-import Swal from 'sweetalert2'
 import { Link, useParams } from 'react-router';
 import { MessagesContext } from '../../Context/MessagesContext';
 import LoaderSpinner from '../../Component/LoaderSpinner/LoaderSpinner';
 import './HomeScreen.css';
-
+import { getContactById } from '../../services/contactService';
 export default function HomeScreen() {
 
     //Capturamos el valor de id de contacto de la URL usando la funcion useParams
     const {contact_id} = useParams()
     const {loadMessages, isMessagesLoading} = useContext(MessagesContext)
+
+    const contact = getContactById(contact_id)
 
     //const {contact_id} = useParams()
     //La funcion console.log se ejecute cada vez que se cambie un parametro de busqueda
@@ -31,28 +32,29 @@ export default function HomeScreen() {
     if(isMessagesLoading){
         return <LoaderSpinner/>
     }
-    const handleClickAlertButton = () => {
-		Swal.fire({
-			title: 'Error!',
-			text: 'Do you want to continue',
-			icon: 'error',
-			confirmButtonText: 'Cool'
-		})
-	}
+
 
    
     return (
   <div className="home-screen">
     <div className="chat-header">
-      <Link to={`/contacts/${contact_id}/detail`} className="contact-link">
-        Ir a detalle de contacto
+     
+      <div>
+        <img src={contact.img} alt={contact.nombre} className="avatar" />
+      </div>
+
+      <div className="contact-img">
+         <Link to={`/contacts/${contact_id}/detail`} className="contact-link">
+        {contact.name}
       </Link>
-      <h3 className="chat-title">
-        Lets go for a <IoIosBody />?
-      </h3>
-      <button className="alert-button" onClick={handleClickAlertButton}>
-        alerta bonita
-      </button>
+        </div>
+
+      
+      <div className="contact-info">
+       <p className="contact-name">{contact.name}</p>
+        <p className="contact-status">💗 En línea</p>
+      </div>
+
     </div>
     <div className="chat-content">
       <Chat />
