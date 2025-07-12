@@ -42,8 +42,8 @@ export default function HomeScreen() {
 
 
         <div className="contact-img">
-          <Link to={`/contacts/${contact_id}/detail`} className="contact-link">
-            <img src={'/img/img-profile-1.png'} alt={contact.name} />
+          <Link to={`/contacts/${contact_id}/detail`} className="contact-link contact-img" >
+            <img src={`/img/img-profile-${contact_id}.png`} alt={contact.name} />
 
           </Link>
         </div>

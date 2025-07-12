@@ -10,19 +10,19 @@
 }
 
 .chat-header-profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #dabbc7;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #dabbc7;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+
 }
 
 .chat-title {
   margin: 0;
   font-size: 1.5rem;
-  
+
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -65,13 +65,20 @@
 }
 
 .contact-img {
-    display: flex;  
-   border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background-color: black;
-    overflow: hidden;
-    justify-content: center;
+  display: flex;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-img img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contact-info {
@@ -79,8 +86,8 @@
   font-size: 13px;
   margin-left: 20px;
   line-height: 8px;
- font-family: roboto, sans-serif;
- color: #4d4d4d;
+  font-family: roboto, sans-serif;
+  color: #4d4d4d;
 }
 
 .contact-name {

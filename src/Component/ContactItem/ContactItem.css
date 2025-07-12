@@ -19,13 +19,17 @@
 .card-icon {
     display: flex;
     border-radius: 50%;
-    width: 60px;
+    min-width: 60px;
     height: 60px;
     background-color: black;
     overflow: hidden;
     justify-content: center;
 
+
 }
+
+
+
 
 .contenedor-card-icons {
     flex-direction: column;
@@ -55,7 +59,7 @@
     align-items: center;
     gap: 16px;
     min-height: 40px;
-    background-color: #e6e6e6;
+    background-color: #fafafa;
 
     width: 90%;
     border-radius: 16px;
