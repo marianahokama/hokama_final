@@ -151,7 +151,7 @@ const mook_data = {
             img: "/img/img-profile-4.png",
             last_message: {
                 id: 1,
-                text: 'No puedo, estoy en la facultad'
+                text: 'No puedo, estoy en Villa Luro'
             },
             unread_messages: 12,
             messages: [
@@ -177,7 +177,7 @@ const mook_data = {
                     emisor: 'Jalil',
                     hora: '13:52',
                     id: 1,
-                    texto: 'No puedo, estoy en la facultad',
+                    texto: 'No puedo, estoy en Villa Luro',
                     status: 'visto'
                 },
             ]
