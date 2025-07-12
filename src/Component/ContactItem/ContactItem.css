@@ -1,12 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-    .card-title {
+.card-title {
     font-weight: bold;
     color: #4d4d4d;
     font-size: 15px;
- 
+
 }
 
 .card-description {
@@ -14,12 +13,12 @@
     text-align: left;
     color: #4d4d4d;
     padding-top: 3px;
-   
+
 }
 
 .card-icon {
-    display: flex;  
-   border-radius: 50%;
+    display: flex;
+    border-radius: 50%;
     width: 60px;
     height: 60px;
     background-color: black;
@@ -28,89 +27,88 @@
 
 }
 
-    .contenedor-card-icons {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-         font-family: roboto, sans-serif;
-         text-decoration: none;
-         width: 100%;
-        
-    }
+.contenedor-card-icons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+    width: 100%;
 
-    .card {
-        max-width: 80%;
-        width: 100%;
-       
-    }
+}
 
-    .contacto-msj {
-        display: flex;
-        flex-direction: column;
-       
-  
-    }
+.card {
+    max-width: 80%;
+    width: 100%;
+}
 
-    .img-msj {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 16px;
-        min-height: 40px;
-        background-color: #e6e6e6;
-
-        width: 90%;
-        border-radius: 16px;
-        padding: 10px;
-        justify-content: space-between;
-        
-        margin: 5px auto;
-    }
-
-    .horario-notif {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: #4d4d4d;
-        align-items: flex-end;
-        margin-left: auto;
-        font-size: 11px;
-        font-weight: 400;
-
-    }
+.contacto-msj {
+    display: flex;
+    flex-direction: column;
 
 
-    .img-msj-contact {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 16px;
-        width: 100%;
-        max-width: 100%;
-        margin-right: 10px;
-    }
-    
+}
+
+.img-msj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    min-height: 40px;
+    background-color: #e6e6e6;
+
+    width: 90%;
+    border-radius: 16px;
+    padding: 10px;
+    justify-content: space-between;
+
+    margin: 5px auto;
+}
+
+.horario-notif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4d4d4d;
+    align-items: flex-end;
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 400;
+
+}
+
+
+.img-msj-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 10px;
+}
 
 
 
-    .notif {
-        font-size: 10px;
-        padding: 4px;
-        background-color: #f364ab;
-        border-radius: 6px;
-        margin-top: 5px;
-        color: #e6e6e6;
-        min-width: 12px;
-        text-align: center;
+
+.notif {
+    font-size: 10px;
+    padding: 4px;
+    background-color: #f364ab;
+    border-radius: 6px;
+    margin-top: 5px;
+    color: #e6e6e6;
+    min-width: 12px;
+    text-align: center;
 
 
 
-    }
+}
 
-   .solo-msj {
-        display: flex;
-      
-        justify-content:space-between;
-      
-   }
+.solo-msj {
+    display: flex;
+
+    justify-content: space-between;
+
+}

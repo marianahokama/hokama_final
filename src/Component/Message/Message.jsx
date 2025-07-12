@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { MessagesContext } from '../../Context/MessagesContext'
 import './Message.css'
 
-export default function Message({ emisor, hora, id, texto, status}) {
+export default function Message({ emisor, hora, id, texto, status, texto2}) {
     //Mostrar por consola el dato guardado en el contexto de mensajes
     //useContext es una funcion de react que me permite usar un contexto
     //Recibe por parametro el contexto a consumir
@@ -25,10 +25,14 @@ export default function Message({ emisor, hora, id, texto, status}) {
                 <span className='hora-enviado'>{hora}</span>
                 <span className='estado-msj' >✔✔</span>
                 {/* Nos interesa pasar una funcion anonima cuando queremos pasarle un parametro a x funcion */}
-               
             </div>
+
         </div>
+
+        
     )
+
+
 
     
 }

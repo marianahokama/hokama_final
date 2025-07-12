@@ -24,6 +24,7 @@ export default function Chat() {
                             texto={message.texto}
                             status={message.status}
                         />
+                        
                     )
                 })
             }
