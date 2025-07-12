@@ -49,9 +49,9 @@ const mook_data = {
         {
             id: 2,
             name: 'Lauju',
-            last_time_connected: '15:19',
+            last_time_connected: '15:45',
             img: "/img/img-profile-2.png",
-                        about: '🎮🐕‍🦺',
+            about: '🎮🐕‍🦺',
             last_message: {
                 id: 1,
                 text: 'Bueno, es algo que se usa en React'
@@ -98,7 +98,7 @@ const mook_data = {
         {
             id: 3,
             name: 'Belen',
-            last_time_connected: '17:19',
+            last_time_connected: '18:17',
             img: "/img/img-profile-3.png",
             about: '🖤🖤🖤',
             last_message: {
@@ -146,8 +146,8 @@ const mook_data = {
         {
             id: 4,
             name: 'Jalil',
-            last_time_connected: '13:19',
-             about: '👾👽👾👽',
+            last_time_connected: '13:39',
+            about: '👾👽👾👽',
             img: "/img/img-profile-4.png",
             last_message: {
                 id: 1,
@@ -204,7 +204,7 @@ const mook_data = {
                 },
 
 
-                                {
+                {
                     emisor: 'YO',
                     hora: '18:16',
                     id: 2,
@@ -213,7 +213,7 @@ const mook_data = {
                 },
 
 
-                                                {
+                {
                     emisor: 'Chy',
                     hora: '18:17',
                     id: 3,
@@ -244,7 +244,7 @@ const mook_data = {
                     status: 'visto'
                 },
 
-                                {
+                {
                     emisor: 'Eros',
                     hora: '23:12',
                     id: 2,
@@ -252,8 +252,8 @@ const mook_data = {
                     status: 'visto'
                 },
 
-                
-                                {
+
+                {
                     emisor: 'Eros',
                     hora: '23:12',
                     id: 6,

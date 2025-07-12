@@ -29,7 +29,7 @@ const ContactItem = ({ name, id, last_time_connected, img, last_message, unread_
                     </div>
 
                     <div className="horario-notif">
-                        <span className="hora">10:00</span>
+                        <span className="hora">{last_time_connected}</span>
                         <span className="notif">{unread_messages}</span>
                     </div>
                 </Link>
