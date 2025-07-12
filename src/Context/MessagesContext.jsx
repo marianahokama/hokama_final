@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { getMessagesByContactId } from "../services/messagesService";
-import { useParams } from "react-router";
+
 
 
 
@@ -8,16 +8,16 @@ import { useParams } from "react-router";
 export const MessagesContext = createContext(
     {
         messages: [],
-        isMessagesLoading: true, 
+        isMessagesLoading: true,
         addNewMessage: (text) => { },
         handleEliminarMensaje: (id_mensaje) => { },
-        loadMessages: (contact_id) => {}
+        loadMessages: (contact_id) => { }
     }
 )
 
 //children prop: es el contenido que anida mi componente MessagesContextProvider
 const MessagesContextProvider = ({ children }) => {
-   
+
 
 
     const [messages, setMessages] = useState([])
@@ -54,7 +54,7 @@ const MessagesContextProvider = ({ children }) => {
             },
             1000
         )
-        
+
     }
 
     return (
@@ -62,7 +62,7 @@ const MessagesContextProvider = ({ children }) => {
             value={
                 {
                     messages: messages,
-                    isMessagesLoading: isMessagesLoading, 
+                    isMessagesLoading: isMessagesLoading,
                     addNewMessage: addNewMessage,
                     handleEliminarMensaje: handleEliminarMensaje,
                     loadMessages: loadMessages

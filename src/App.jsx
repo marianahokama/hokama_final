@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import HomeScreen from './Screens/HomeScreen/HomeScreen'
-import {Routes, Route} from 'react-router'
+import {Routes, Route} from 'react-router-dom'
 import ContactScreen from './Screens/ContactScreen/ContactScreen'
 import ContactDetailScreen from './Screens/ContactDetailScreen/ContactDetailScreen'
 import { getContactList } from './services/contactService'
