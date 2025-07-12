@@ -83,12 +83,14 @@
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
+    width: 90%;
+    justify-content: space-around;
 }
 
 .contact-button {
-    background-color: #ec407a;
+    background-color: #9e7e8e;
         border: 1px solid #c99db3;
-    color: #4d4d4d;
+    color: #e6e6e6;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     text-decoration: none;
@@ -96,4 +98,24 @@
     transition: background-color 0.3s ease;
     cursor: pointer;
     text-align: center;
+    width: 80px;
+
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+ 
+
+
+}
+
+
+.button-text {
+text-align: center;
+    font-size: 14px;
+    color: #e6e6e6;
+    margin-top: 5px;
 }
