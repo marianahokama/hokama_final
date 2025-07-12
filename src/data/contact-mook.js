@@ -5,27 +5,51 @@ const mook_data = {
             id: 1,
             name: 'Mariana',
             last_time_connected: '14:19',
-            img: "https://resizing.flixster.com/HyNT-XNfqIkd0KbeP0zrKyDQQro=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p90510_p_v10_aa.jpg",
+            img: '/img/img-profile-1.png',
             last_message: {
                 id: 1,
-                text: 'Que tal, tanto tiempo!'
+                text: 'Es que no estoy entendiendo nada'
             },
             unread_messages: 1,
             messages: [
                 {
-                    emisor: 'Lautaro',
+                    emisor: 'Mariana',
                     hora: '23:10',
                     id: 1,
-                    texto: 'Hola que tal?',
+                    texto: 'Es que no estoy entendiendo nada',
                     status: 'visto'
                 },
+                {
+                    emisor: 'Mariana',
+                    hora: '23:15',
+                    id: 2,
+                    texto: 'Nada',
+                    status: 'visto'
+                },
+
+                {
+                    emisor: 'YO',
+                    hora: '23:25',
+                    id: 3,
+                    texto: 'Ah yo tampoco estoy entendiendo nada',
+                    status: 'visto'
+                },
+
+                {
+                    emisor: 'Mariana',
+                    hora: '23:50',
+                    id: 4,
+                    texto: 'Necesito vacaciones 😅',
+                    status: 'visto'
+                },
+
             ]
         },
         {
             id: 2,
-            name: 'Lauju', 
+            name: 'Lauju',
             last_time_connected: '15:19',
-            img: "https://resizing.flixster.com/HyNT-XNfqIkd0KbeP0zrKyDQQro=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p90510_p_v10_aa.jpg",
+            img: "/img/img-profile-4.png",
             last_message: {
                 id: 1,
                 text: 'Que tal, tanto tiempo!'
@@ -43,9 +67,9 @@ const mook_data = {
         },
         {
             id: 3,
-            name: 'Chyru',
+            name: 'Belen',
             last_time_connected: '17:19',
-            img: "https://resizing.flixster.com/HyNT-XNfqIkd0KbeP0zrKyDQQro=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p90510_p_v10_aa.jpg",
+            img: "/img/img-profile-5.png",
             last_message: {
                 id: 1,
                 text: 'Que tal, tanto tiempo!'
@@ -60,7 +84,29 @@ const mook_data = {
                     status: 'no-visto'
                 },
             ]
+        },
+
+        {
+            id: 4,
+            name: 'Chyru',
+            last_time_connected: '17:19',
+            img: "/img/img-profile-5.png",
+            last_message: {
+                id: 1,
+                text: 'Que tal, tanto tiempo!'
+            },
+            unread_messages: 20,
+            messages: [
+                {
+                    emisor: 'YO',
+                    hora: '23:12',
+                    id: 4,
+                    texto: 'Eso que significa 🤓?',
+                    status: 'no-visto'
+                },
+            ]
         }
+
     ]
 }
 
